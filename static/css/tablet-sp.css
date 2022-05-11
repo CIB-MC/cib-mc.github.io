@@ -4,6 +4,7 @@
 
 html {
     font-size: 16px;
+    font-family: sans-serif;
 }
 
 body {
@@ -20,6 +21,7 @@ body > * > * {
 
 header .site_name {
     font-size: 2rem;
+    line-height: 1.3em;
     margin-left: 0.25em;
     font-weight: bold;
 }
@@ -38,8 +40,8 @@ header nav #control ~ label {
     top: 5px;
     right: 5px;
     display: flex;
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     justify-content: center;
     align-items: center;
     z-index: 90;
