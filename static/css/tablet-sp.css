@@ -1,6 +1,5 @@
 @charset "UTF-8";
-
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 html {
     font-size: 16px;
@@ -13,10 +12,14 @@ body {
 }
 
 body > * > * {
+    display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 5px;
     box-sizing: border-box;
+}
+
+#logo_anime {
+    margin-bottom: 1em;
 }
 
 header .site_name {
@@ -97,6 +100,7 @@ header {
     width: 100%;
     color: #fff;
     background-color: #006400;
+    padding: 5px;
 }
 
 header nav #control ~ ul {
@@ -216,4 +220,5 @@ main nav ol li::before {
 
 footer {
     text-align: center;
+    padding: 5px;
 }
